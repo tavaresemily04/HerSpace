@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ask Without Shame</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff0f5;
+      color: #333;
+    }
+
+    header {
+      background: #ff7eb9;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      border-bottom: 4px solid #ff3c86;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    section {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #ff3c86;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    button {
+      background-color: #ff3c86;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e03274;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #ffe3ec;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ask Without Shame</h1>
+    <p>Helping girls feel safe asking about periods, health, and growing up 💖</p>
+  </header>
+
+  <main>
+    <section class="question-section">
+      <h2>💬 Ask a Question</h2>
+      <p>Ask anything anonymously. No shame, just support.</p>
+      <form id="questionForm">
+        <input type="text" id="name" placeholder="Your name (optional)" />
+        <textarea id="question" rows="4" placeholder="Type your question here..."></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="submittedQuestions"></div>
+    </section>
+
+    <section class="tracker-section">
+      <h2>📅 Period Tracker</h2>
+      <p>(Coming soon!) Track your cycle and mood here.</p>
+    </section>
+
+    <section class="stories-section">
+      <h2>🩸 Real Period Stories</h2>
+      <p>Read how others navigated their first period, awkward questions, and more:</p>
+      <ul>
+        <li>"I thought I was dying... until my older cousin told me what it was."</li>
+        <li>"I was afraid to tell anyone at school. Now I want to help others not feel that way."</li>
+        <li>More stories coming soon...</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Ask Without Shame | Built with love for social good 💕
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
